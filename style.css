@@ -42,7 +42,7 @@ header .logo:hover {
 header ul {
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -58,27 +58,7 @@ header ul li:hover {
     color: #5dd666;
 }
 
-/* header #toggler {
-    display: none;
-}
-
-header .fa-bars {
-    font-size: 3rem;
-    color: #333;
-    border-radius: 4px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border: 0.1rem solid rgba(0, 0, 0, 0.3);
-    display: none;
-} */
-/* 
-#menu-icon {
-    font-size: 3rem;
-    display: none;
-} */
-
 .home {
-    /* background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); */
     background-color: #333;
     min-height: 100vh;
     padding: 7rem 5rem;
@@ -236,7 +216,7 @@ img {
     background-color: #333;
     padding: 0.8rem 2rem;
     border-radius: 1rem;
-    flex: 1 1 15rem;
+    flex: 1 1 10rem;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
@@ -249,6 +229,7 @@ img {
 /* profile */
 
 .profile {
+    /* width: 100%; */
     padding: 1rem 5rem;
     /* margin: 1rem auto; */
     display: flex;
@@ -344,19 +325,24 @@ footer i {
 
     .home {
         flex-direction: column;
-        margin: 2rem 2rem;
+        /* margin: 2rem 2rem; */
         padding: 5rem 2rem;
+    }
+
+    header ul{
+        font-size: 1rem;
+        margin-left: 5rem;
+    }
+
+       .services ul {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .profile {
         flex-direction: column;
-        margin: 2rem 2rem;
-        padding: 5rem 2rem;
-    }
-
-    .services ul {
-        display: flex;
-        flex-wrap: wrap;
+        margin: 2rem auto;
+        padding: 2rem 2rem;
     }
 
     .profile .about {
